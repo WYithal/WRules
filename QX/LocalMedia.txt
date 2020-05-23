@@ -1,84 +1,88 @@
-# > Bilibili
-USER-AGENT,bili*
-USER-AGENT,Bilibili*
-DOMAIN-SUFFIX,acg.tv
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,b23.tv
-DOMAIN-SUFFIX,biliapi.com
-DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,biligame.com
-DOMAIN-SUFFIX,biligame.net
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,im9.com
+# DomesticMedia.list
+# (Video)
 # AcFun
-USER-AGENT,AcFun*
-DOMAIN-SUFFIX,acfun.cn
-DOMAIN-SUFFIX,acfun.com
-DOMAIN-SUFFIX,aixifan.com
+user-agent, AcFun*, DomesticMedia
+host-suffix, acfun.cn, DomesticMedia
+host-suffix, acfun.com, DomesticMedia
+host-suffix, aixifan.com, DomesticMedia
+# > bilibili
+host-keyword, bilibili, DomesticMedia
+host-suffix, acg.tv, DomesticMedia
+host-suffix, acgvideo.com, DomesticMedia
+host-suffix, b23.tv, DomesticMedia
+host-suffix, biliapi.com, DomesticMedia
+host-suffix, biliapi.net, DomesticMedia
+host-suffix, bilibili.com, DomesticMedia
+host-suffix, bilibili.tv, DomesticMedia
+host-suffix, biligame.com, DomesticMedia
+host-suffix, biligame.net, DomesticMedia
+host-suffix, bilivideo.com, DomesticMedia
+host-suffix, hdslb.com, DomesticMedia
+host-suffix, im9.com, DomesticMedia
+host, upos-hz-mirrorakam.akamaized.net, DomesticMedia
+user-agent, *bili*, DomesticMedia
 # > HunanTV
-USER-AGENT,MGTV*
-DOMAIN-SUFFIX,hitv.com
-DOMAIN-SUFFIX,hunantv.com
-DOMAIN-SUFFIX,mgtv.com
+user-agent, MGTV*, DomesticMedia
+host-suffix, hitv.com, DomesticMedia
+host-suffix, hunantv.com, DomesticMedia
+host-suffix, mgtv.com, DomesticMedia
 # > Migu
-USER-AGENT,MiguVideo*
-USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
-DOMAIN-SUFFIX,cmvideo.cn
-DOMAIN-SUFFIX,migu.cn
-DOMAIN-SUFFIX,miguvideo.com
+user-agent, MiguVideo*, DomesticMedia
+user-agent, %E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91, DomesticMedia
+host-suffix, cmvideo.cn, DomesticMedia
+host-suffix, migu.cn, DomesticMedia
+host-suffix, miguvideo.com, DomesticMedia
 # > iQiyi
-DOMAIN-KEYWORD,qiyi
-DOMAIN-SUFFIX,71.am.com
-DOMAIN-SUFFIX,qy.net
-IP-CIDR,101.224.0.0/13,no-resolve
-IP-CIDR,101.227.0.0/16,no-resolve
-IP-CIDR,119.176.0.0/12,no-resolve
-USER-AGENT,iQiYi*
-USER-AGENT,PPStream*
-USER-AGENT,QIYI*
-USER-AGENT,QYPlayer*
+host-keyword, qiyi, DomesticMedia
+host-suffix, 71.am.com, DomesticMedia
+host-suffix, qy.net, DomesticMedia
+ip-cidr, 101.224.0.0/13, DomesticMedia
+ip-cidr, 101.227.0.0/16, DomesticMedia
+ip-cidr, 119.176.0.0/12, DomesticMedia
+user-agent, iQiYi*, DomesticMedia
+user-agent, PPStream*, DomesticMedia
+user-agent, QIYI*, DomesticMedia
+user-agent, QYPlayer*, DomesticMedia
 # > Sohu
-DOMAIN-SUFFIX,56.com
-DOMAIN-SUFFIX,sohu.com
-DOMAIN-SUFFIX,sohu.com.cn
-DOMAIN-SUFFIX,itc.cn
-DOMAIN-SUFFIX,v-56.com
+host-suffix, 56.com, DomesticMedia
+host-suffix, sohu.com, DomesticMedia
+host-suffix, sohu.com.cn, DomesticMedia
+host-suffix, itc.cn, DomesticMedia
+host-suffix, v-56.com, DomesticMedia
 # > Tencent
-USER-AGENT,live4iphone*
-USER-AGENT,qqlive4iphone*
-USER-AGENT,TencentMidasConnect*
-DOMAIN-SUFFIX,video.qq.com
+user-agent, live4iphone*, DomesticMedia
+user-agent, qqlive4iphone*, DomesticMedia
+user-agent, TencentMidasConnect*, DomesticMedia
+host-suffix, video.qq.com, DomesticMedia
 # > Youku
-USER-AGENT,Youku*
-USER-AGENT,%E4%BC%98%E9%85%B7*
-DOMAIN-SUFFIX,soku.com
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,ykimg.com
+user-agent, Youku*, DomesticMedia
+user-agent, %E4%BC%98%E9%85%B7*, DomesticMedia
+host-suffix, soku.com, DomesticMedia
+host-suffix, youku.com, DomesticMedia
+host-suffix, ykimg.com, DomesticMedia
 
 # (Music)
 # > Alibaba
-USER-AGENT,walkman*
-USER-AGENT,xiami*
-DOMAIN-SUFFIX,xiami.com
-DOMAIN-SUFFIX,xiami.net
+user-agent, walkman*, DomesticMedia
+user-agent, xiami*, DomesticMedia
+host-suffix, xiami.com, DomesticMedia
+host-suffix, xiami.net, DomesticMedia
 # > Netease
-USER-AGENT,NeteaseMusic*
-USER-AGENT,%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
-DOMAIN-SUFFIX,music.126.net
-DOMAIN-SUFFIX,music.163.com
+user-agent, NeteaseMusic*, DomesticMedia
+user-agent, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*, DomesticMedia
+host-suffix, music.126.net, DomesticMedia
+host-suffix, music.163.com, DomesticMedia
 # > Tencent
-USER-AGENT,MOO%E9%9F%B3%E4%B9%90*
-USER-AGENT,QQ%E9%9F%B3%E4%B9%90
-DOMAIN-SUFFIX,qqmusic.qq.com
-DOMAIN-SUFFIX,y.qq.com
-DOMAIN,aqqmusic.tc.qq.com
+user-agent, MOO%E9%9F%B3%E4%B9%90*, DomesticMedia
+user-agent, QQ%E9%9F%B3%E4%B9%90, DomesticMedia
+host-suffix, qqmusic.qq.com, DomesticMedia
+host-suffix, y.qq.com, DomesticMedia
+host, aqqmusic.tc.qq.com, DomesticMedia
 # Kugou and Kuwo
-DOMAIN-SUFFIX,kugou.com
-USER-AGENT,%E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,koowo.com
+host-suffix, kugou.com, DomesticMedia
+user-agent, %E9%85%B7%E6%88%91%E9%9F%B3%E4%B9%90*, DomesticMedia
+host-suffix, kuwo.cn, DomesticMedia
+host-suffix, koowo.com, DomesticMedia
 # > Baidu
-USER-AGENT,baiduyinyue
-DOMAIN-SUFFIX,qianqian.com
+user-agent, baiduyinyue, DomesticMedia
+host-suffix, qianqian.com, DomesticMedia
