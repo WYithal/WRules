@@ -1,5 +1,5 @@
 payload:
-  - "+.ubi.com"
+  #- "+.ubi.com"
   - "+.ubisoft.com"
   - "+.uplay.com"
   - "ubisoft-orbit-savegames.s3.amazonaws.com"
