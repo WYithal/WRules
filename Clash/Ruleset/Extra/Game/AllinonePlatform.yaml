@@ -24,8 +24,6 @@ payload:
   - DOMAIN-SUFFIX,unrealengine.com
 
 #uplay平台
-# uplay登录
-#DOMAIN,public-ubiservices.ubi.com
 # uplay客户端更新（非游戏下载）
   - DOMAIN,static3.cdn.ubi.com
 # uplay云同步
@@ -41,3 +39,4 @@ payload:
   - DOMAIN,lb-upc-dmx.ubisoft.com
   - DOMAIN,msr-api-ubiservices.ubi.com
   - DOMAIN,dmx.upc.ubisoft.com
+  - DOMAIN,ubiservices.cdn.ubi.com
