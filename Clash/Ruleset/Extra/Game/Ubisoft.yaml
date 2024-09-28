@@ -1,15 +1,29 @@
 payload:
-  - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
-  - DOMAIN-SUFFIX,ubi.com
-  - DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
+#uplay平台
+# uplay客户端更新（非游戏下载）
+  - DOMAIN-SUFFIX,static3.cdn.ubi.com
+# uplay云同步
   - DOMAIN-SUFFIX,ubisoft-uplay-savegames.s3.amazonaws.com
-  - DOMAIN-SUFFIX,ubisoft.com
-  - DOMAIN-SUFFIX,uplay.com
-  - DOMAIN-SUFFIX,store.ubisoft.com
+  - DOMAIN-SUFFIX,ubisoft-orbit-savegames.s3.amazonaws.com
+# uplay不显示等级/不显示好友等问题/卡正在初始化（不含登陆与云同步）
+  - DOMAIN-SUFFIX,public-im-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,msr-public-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,public-ws.aws-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,public.aws-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,public-ws-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,api-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,lb-upc-dmx.ubisoft.com
+  - DOMAIN-SUFFIX,msr-api-ubiservices.ubi.com
+  - DOMAIN-SUFFIX,dmx.upc.ubisoft.com
+  - DOMAIN-SUFFIX,ubiservices.cdn.ubi.com
+# uplay登录
   - DOMAIN-SUFFIX,public-ubiservices.ubi.com
-  - DOMAIN-SUFFIX,ubistatic-a.akamaihd.net
-  - DOMAIN-SUFFIX,ubistatic2-a.akamaihd.net
-  - DOMAIN-SUFFIX,ubistatic3-a.akamaihd.net
-  - DOMAIN-SUFFIX,ubisoft-avatars.akamaized.net
-  - DOMAIN-SUFFIX,ubisoftconnect.com
-
+  - DOMAIN-SUFFIX,connect.ubisoft.com
+  - DOMAIN-SUFFIX,connect.cdn.ubisoft.com
+  - DOMAIN-SUFFIX,channel-service.upc.ubi.com
+  - DOMAIN-SUFFIX,wallet.ecom.ubi.com
+  - DOMAIN-SUFFIX,store.ubi.com
+  - DOMAIN-SUFFIX,channel-service.upc.ubi.com
+  - DOMAIN-SUFFIX,metrics.live.public.prod.ubiconnect.fleet.ubi.com
+  - DOMAIN-SUFFIX,avcvysejs1-dsn.algolia.net
+  - DOMAIN-SUFFIX,connect.cdn.ubionline.com.cn
