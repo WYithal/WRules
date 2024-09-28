@@ -13,7 +13,7 @@ payload:
   - DOMAIN,origin-a.akamaihd.net
   - DOMAIN-SUFFIX,ssl-lvlt.cdn.ea.com
 # uplay登录
-  - DOMAIN,public-ubiservices.ubi.com
+#  - DOMAIN,public-ubiservices.ubi.com
 #  - DOMAIN,dmx.upc.ubisoft.com
-  - DOMAIN,connect.ubisoft.com
-  - DOMAIN,connect.cdn.ubisoft.com
+#  - DOMAIN,connect.ubisoft.com
+#  - DOMAIN,connect.cdn.ubisoft.com

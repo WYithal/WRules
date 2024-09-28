@@ -40,3 +40,7 @@ payload:
   - DOMAIN,msr-api-ubiservices.ubi.com
   - DOMAIN,dmx.upc.ubisoft.com
   - DOMAIN,ubiservices.cdn.ubi.com
+# uplay登录
+  - DOMAIN,public-ubiservices.ubi.com
+  - DOMAIN,connect.ubisoft.com
+  - DOMAIN,connect.cdn.ubisoft.com
