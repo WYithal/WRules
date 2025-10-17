@@ -27,3 +27,4 @@ payload:
   - DOMAIN-SUFFIX,metrics.live.public.prod.ubiconnect.fleet.ubi.com
   - DOMAIN-SUFFIX,avcvysejs1-dsn.algolia.net
   - DOMAIN-SUFFIX,connect.cdn.ubionline.com.cn
+  - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
